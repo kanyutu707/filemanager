@@ -1,0 +1,36 @@
+.uploadform{
+    display: flex;
+    flex-direction: column;
+    padding: 5px;
+    border: 1px solid lightgray;
+    width: 300px;
+    border-radius: 3px;
+    background-color: whitesmoke;
+    margin-bottom: 5px;
+}
+.uploadform header{
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-end;
+}
+.uploadform .input_group{
+    display: flex;
+    flex-direction: column;
+}
+.uploadform .input_group label{
+    font-size: 15px;
+    font-weight: 550;
+    margin-bottom: 10px;
+}
+.uploadform .input_group input[type="file"]{
+    height: 40px;
+
+}
+.uploadform  button{
+    height: 37px;
+    width: 150px;
+    background-color: black;
+    color: white;
+    border: none;
+    border-radius: 3px;
+}
